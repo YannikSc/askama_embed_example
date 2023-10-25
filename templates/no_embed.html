@@ -1,0 +1,11 @@
+{% extends "partials/page.html" %}
+
+{% block head %}
+    <title>Askama example - "classic" inheritance</title>
+{% endblock %}
+
+{% block body %}
+    {% include "no_embed/images_section.html" %}
+
+    {% include "no_embed/news_section.html" %}
+{% endblock %}

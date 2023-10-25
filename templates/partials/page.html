@@ -1,0 +1,14 @@
+{% block doctype %}
+<!DOCTYPE html>
+{% endblock %}
+<html>
+    {% block html %}
+        <head>
+            {% block head %}<title>Askama example</title>{% endblock %}
+        </head>
+
+        <body>
+            {% block body %}{% endblock %}
+        </body>
+    {% endblock %}
+</html>
